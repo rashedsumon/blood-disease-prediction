@@ -27,7 +27,7 @@ model = load_ai_model()
 
 # --- SECTION 3: IMAGE UPLOAD & INFERENCE ---
 st.write("---")
-st.subheader("2. Analyze Patient Blood Smear Sample")
+st.subheader("Analyze Patient Blood Smear Sample")
 uploaded_file = st.file_uploader("Upload a microscopic cell image (JPG/PNG)...", type=["jpg", "jpeg", "png"])
 
 if uploaded_file is not None:
