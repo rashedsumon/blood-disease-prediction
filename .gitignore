@@ -1,0 +1,11 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Kagglehub / Local data downloads
+.kagglehub/
+extracted_data/
+data/
+
+# Streamlit local configs
+.streamlit/
