@@ -19,7 +19,7 @@ st.write("Identify cellular abnormalities instantly using deep learning.")
 # In a real environment, you would load pre-saved weights (.pth file).
 @st.cache_resource
 def load_ai_model():
-    model = BloodCellCNN(num_classes=2)
+    model = BloodCellCNN(num_classes)
     # model.load_state_dict(torch.load('model_weights.pth', map_location=torch.device('cpu')))
     return model
 
