@@ -12,15 +12,7 @@ st.title("🩸 Blood Diseases Prediction")
 st.write("Identify cellular abnormalities instantly using deep learning.")
 
 # --- SECTION 1: DATASET INITIALIZATION ---
-st.subheader("1. Dataset Status")
-with st.spinner("Initializing dataset from Kaggle via kagglehub..."):
-    try:
-        dataset_path = download_and_prepare_dataset()
-        st.success(f"Dataset securely linked! Ready for analysis.")
-        with st.expander("Show Local Data Path Details"):
-            st.code(dataset_path)
-    except Exception as e:
-        st.error(f"Failed to fetch dataset: {e}")
+
 
 # --- SECTION 2: AI MODEL INITIALIZATION ---
 # We initialize a mock/untrained model structure for deployment presentation.
