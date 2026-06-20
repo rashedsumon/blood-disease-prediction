@@ -8,7 +8,7 @@ from model import BloodCellCNN, predict_image
 # Page Configurations
 st.set_page_config(page_title="Blood Cell Anomaly Detector", page_icon="🩸", layout="centered")
 
-st.title("🩸 Blood Cell Anomaly Detection AI")
+st.title("🩸 Blood Diseases Prediction")
 st.write("Identify cellular abnormalities instantly using deep learning.")
 
 # --- SECTION 1: DATASET INITIALIZATION ---
